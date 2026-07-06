@@ -1,0 +1,16 @@
+{
+  "name": "unknown-first",
+  "version": "0.1.0",
+  "description": "Unknown-first workflow skills for resolving project unknowns before implementation.",
+  "author": {
+    "name": "limecats0331"
+  },
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "planning",
+    "unknowns",
+    "blindspot-pass",
+    "project-memory"
+  ]
+}

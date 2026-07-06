@@ -1,0 +1,23 @@
+---
+name: closeout
+description: Use after implementation to verify the change, produce a final explainer, optionally quiz the user, and route durable learnings to unknown-first:memory-update.
+---
+
+# Closeout
+
+Read `../references/shared-workflow.md` and use `../references/artifact-templates.md` when writing final explainer or quiz files.
+
+## Procedure
+
+1. Summarize what changed and why.
+2. Provide verification evidence: tests, screenshots, logs, commands, or manual checks.
+3. Explain deviations from the plan.
+4. Identify residual risks and follow-ups.
+5. If the work was complex, produce a short quiz or checklist to confirm human understanding.
+6. Identify decisions and resolved unknowns that should become project memory.
+
+## End State
+
+End with:
+
+`Next: use unknown-first:memory-update to promote durable decisions and resolved unknowns.`

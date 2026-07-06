@@ -1,0 +1,26 @@
+{
+  "name": "unknown-first",
+  "version": "0.1.0",
+  "description": "Unknown-first workflow skills for resolving project unknowns before implementation.",
+  "author": {
+    "name": "limecats0331"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Unknown First",
+    "shortDescription": "Resolve unknowns before implementation.",
+    "longDescription": "Unknown First adds a Superpowers-style workflow for blindspot passes, disposable prototypes, interviews, implementation plans, execution notes, closeout, and project memory updates.",
+    "developerName": "limecats0331",
+    "category": "Productivity",
+    "capabilities": [
+      "Workflow",
+      "Planning",
+      "Project Memory"
+    ],
+    "defaultPrompt": [
+      "Use unknown-first:blindspot-pass before implementing this change.",
+      "Use unknown-first:plan to prepare an approval-gated implementation plan.",
+      "Use unknown-first:memory-update to record resolved unknowns."
+    ]
+  }
+}
