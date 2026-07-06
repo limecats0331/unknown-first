@@ -16,7 +16,10 @@ The core framing comes from "the map is not the territory":
 
 Unknown First turns that idea into a reusable workflow. It asks the agent to surface blindspots, use disposable prototypes only when they reduce uncertainty, interview the human for high-impact decisions, write an approval-gated plan, record deviations during implementation, and promote resolved unknowns into project memory so the same questions are not asked repeatedly.
 
-Source inspiration: [A Field Guide to Fable: Finding Your Unknowns](https://x.com/trq212/article/2073100352921215386) by Thariq.
+Source inspiration:
+
+- [A Field Guide to Fable: Finding Your Unknowns](https://x.com/trq212/article/2073100352921215386) by Thariq
+- [Superpowers](https://github.com/obra/superpowers), especially its namespaced skill workflow style
 
 ## Workflow
 

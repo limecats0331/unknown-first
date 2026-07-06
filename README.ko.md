@@ -16,7 +16,10 @@ English README: [README.md](README.md)
 
 Unknown First는 이 아이디어를 재사용 가능한 절차로 바꿉니다. Agent가 먼저 blindspot을 찾고, 필요한 경우에만 disposable prototype으로 암묵적 판단 기준을 끌어내며, 중요한 결정은 interview로 확인하고, 승인 가능한 implementation plan을 만든 뒤, 구현 중 deviation을 기록하고, resolved unknown을 project memory로 승격해 같은 질문을 반복하지 않게 합니다.
 
-출처/영감: Thariq의 [A Field Guide to Fable: Finding Your Unknowns](https://x.com/trq212/article/2073100352921215386)
+출처/영감:
+
+- Thariq의 [A Field Guide to Fable: Finding Your Unknowns](https://x.com/trq212/article/2073100352921215386)
+- [Superpowers](https://github.com/obra/superpowers), 특히 namespaced skill workflow 방식
 
 ## Workflow
 
