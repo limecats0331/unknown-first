@@ -1,0 +1,120 @@
+# Unknown First
+
+Unknown First는 실제 구현에 들어가기 전에 프로젝트의 unknown을 찾아 줄이고, 결정된 내용을 프로젝트 메모리로 남기기 위한 Claude Code / Codex workflow plugin입니다.
+
+English README: [README.md](README.md)
+
+## 왜 만들었나
+
+이 plugin은 강한 agentic model을 쓸수록 결과 품질의 병목이 모델 성능 자체보다, 사람이 모델이 추측해야 할 unknown을 얼마나 잘 드러내고 줄이느냐로 옮겨간다는 문제의식에서 출발했습니다.
+
+핵심 프레임은 "지도는 영토가 아니다"입니다.
+
+- **지도**는 agent에게 주는 prompt, context, skill, spec, reference입니다.
+- **영토**는 실제 codebase, domain, user, constraint, team preference입니다.
+- **Unknown**은 지도와 영토 사이의 빈칸입니다.
+
+Unknown First는 이 아이디어를 재사용 가능한 절차로 바꿉니다. Agent가 먼저 blindspot을 찾고, 필요한 경우에만 disposable prototype으로 암묵적 판단 기준을 끌어내며, 중요한 결정은 interview로 확인하고, 승인 가능한 implementation plan을 만든 뒤, 구현 중 deviation을 기록하고, resolved unknown을 project memory로 승격해 같은 질문을 반복하지 않게 합니다.
+
+출처/영감: Thariq의 [A Field Guide to Fable: Finding Your Unknowns](https://x.com/trq212/article/2073100352921215386)
+
+## Workflow
+
+Unknown First는 "그냥 구현해줘"를 다음 단계형 프로세스로 바꿉니다.
+
+1. `unknown-first:blindspot-pass`
+2. `unknown-first:prototype`
+3. `unknown-first:interview`
+4. `unknown-first:plan`
+5. `unknown-first:implement`
+6. `unknown-first:closeout`
+7. `unknown-first:memory-update`
+
+Discovery 단계에서는 production code를 수정하지 않습니다. 승인 전에는 disposable prototype, note, isolated proof of concept, draft artifact만 허용합니다.
+
+## Commands
+
+Plugin은 namespaced skill 형태로 사용합니다.
+
+```text
+/unknown-first:blindspot-pass
+/unknown-first:prototype
+/unknown-first:interview
+/unknown-first:plan
+/unknown-first:implement
+/unknown-first:closeout
+/unknown-first:memory-update
+```
+
+`prototype`은 항상 필요한 단계가 아닙니다. Mock이나 disposable artifact가 불확실성을 줄이지 못하는 경우에는 명시적으로 `interview`로 넘어갑니다.
+
+## Claude Code
+
+이 디렉토리에서 바로 실행할 수 있습니다.
+
+```bash
+claude --plugin-dir /path/to/unknown-first
+```
+
+영구적인 local install을 원하면, 이 plugin directory를 가리키는 Claude marketplace를 추가한 뒤 설치합니다.
+
+```bash
+claude plugin marketplace add /path/to/local-marketplace-root
+claude plugin install unknown-first@unknown-first-local
+```
+
+## Codex
+
+Codex manifest는 `.codex-plugin/plugin.json`에 있습니다.
+
+Local personal marketplace를 사용할 경우, marketplace entry가 plugin root를 가리키도록 설정합니다.
+
+```text
+./plugins/unknown-first
+```
+
+## Project Memory
+
+Workflow는 프로젝트에서 재사용할 수 있는 학습과 결정을 아래 위치에 남깁니다.
+
+```text
+.unknowns-first/
+  project-memory.md
+  decisions.md
+  resolved-unknowns.md
+  open-unknowns.md
+  question-log.md
+```
+
+이 파일들은 각 프로젝트의 runtime memory이므로, 이 plugin repository에서는 ignore됩니다.
+
+## Source Layout
+
+```text
+.claude-plugin/plugin.json
+.codex-plugin/plugin.json
+skills/
+  blindspot-pass/
+  prototype/
+  interview/
+  plan/
+  implement/
+  closeout/
+  memory-update/
+  using-unknown-first/
+  references/
+```
+
+## Validation
+
+Claude:
+
+```bash
+claude plugin validate .
+```
+
+Codex:
+
+```bash
+python3 /path/to/plugin-creator/scripts/validate_plugin.py .
+```

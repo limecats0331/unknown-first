@@ -2,6 +2,24 @@
 
 Unknown First is a Claude Code / Codex workflow plugin for resolving project unknowns before durable implementation.
 
+Korean README: [README.ko.md](README.ko.md)
+
+## Why This Exists
+
+This plugin is based on a simple working lesson: for strong agentic models, output quality is often bottlenecked less by raw model capability and more by how well the human clarifies the unknowns the model would otherwise have to guess through.
+
+The core framing comes from "the map is not the territory":
+
+- The **map** is the prompt, context, skills, specs, and references given to the agent.
+- The **territory** is the actual codebase, domain, users, constraints, and team preferences.
+- **Unknowns** are the gaps between the map and the territory.
+
+Unknown First turns that idea into a reusable workflow. It asks the agent to surface blindspots, use disposable prototypes only when they reduce uncertainty, interview the human for high-impact decisions, write an approval-gated plan, record deviations during implementation, and promote resolved unknowns into project memory so the same questions are not asked repeatedly.
+
+Source inspiration: [A Field Guide to Fable: Finding Your Unknowns](https://x.com/trq212/article/2073100352921215386) by Thariq.
+
+## Workflow
+
 It turns "just implement this" into a staged process:
 
 1. `unknown-first:blindspot-pass`
