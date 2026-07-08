@@ -7,6 +7,12 @@ description: Use after unknown-first:interview when enough decisions are resolve
 
 Read `../references/shared-workflow.md` and use `../references/artifact-templates.md`.
 
+## Inquiry Lens
+
+Ask: "Which implementation choices are most likely to need human review before code changes?"
+
+Do not merely summarize previous answers. Planning must surface reviewable implementation choices: data model, interfaces, user-facing behavior, security/privacy, migration, rollback, and test strategy.
+
 ## Procedure
 
 1. Review memory, blindspot notes, prototype notes, interview answers, and existing decisions.

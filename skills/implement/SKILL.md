@@ -7,6 +7,12 @@ description: Use only after an unknown-first:plan implementation plan is approve
 
 Read `../references/shared-workflow.md` and use `../references/artifact-templates.md` for implementation notes.
 
+## Inquiry Lens
+
+Ask: "What did reality force us to change from the plan?"
+
+Implementation is the first durable code stage. It should not reopen discovery by default, but it must detect new unknown unknowns that appear in the real codebase and record or escalate them.
+
 ## Preconditions
 
 Before implementing, confirm one of:

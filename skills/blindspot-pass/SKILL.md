@@ -7,6 +7,12 @@ description: Use before non-trivial work, especially new codebase areas, unfamil
 
 Read `../references/shared-workflow.md` and use `../references/artifact-templates.md` if writing files.
 
+## Inquiry Lens
+
+Ask: "What has not even been considered yet?"
+
+This stage is not the general requirements interview. It should expose blindspots, risky assumptions, missing context, and unknown unknowns before the workflow decides whether to prototype or interview.
+
 ## Procedure
 
 1. Check `.unknowns-first/` memory files if present.

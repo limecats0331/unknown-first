@@ -35,6 +35,16 @@ It turns "just implement this" into a staged process:
 
 The workflow keeps production code untouched during discovery. Disposable prototypes, notes, isolated proofs of concept, and draft artifacts are allowed before approval.
 
+Each stage has a distinct inquiry lens. Later stages should not assume earlier questions covered their job:
+
+- `blindspot-pass`: what has not even been considered yet?
+- `prototype`: what tacit preference only becomes clear when seen?
+- `interview`: which explicit decisions would change architecture, UX, scope, security, data, or cost?
+- `plan`: which implementation choices need review before code changes?
+- `implement`: what did reality force us to change from the plan?
+- `closeout`: can the human understand and verify what changed?
+- `memory-update`: what should never need to be re-asked?
+
 ## Commands
 
 Use the plugin with namespaced skills:

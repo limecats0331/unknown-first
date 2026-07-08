@@ -54,6 +54,20 @@ Ask the same project question at most twice. After the second answer, promote it
 - `Unknown knowns`: tacit preferences the user may recognize only after seeing examples.
 - `Unknown unknowns`: blindspots the user may not know to ask about.
 
+## Stage Independence
+
+Stages are ordered, but they are not a single question list split into parts. Each stage must run its own distinct inquiry lens:
+
+- `blindspot-pass` asks: "What has not even been considered yet?"
+- `prototype` asks: "What tacit preference or quality bar only becomes clear when seen?"
+- `interview` asks: "Which explicit decisions would change architecture, UX, scope, security, data, or cost?"
+- `plan` asks: "Which implementation choices are most likely to need human review before code changes?"
+- `implement` asks: "What did reality force us to change from the plan?"
+- `closeout` asks: "Can the human understand and verify what changed?"
+- `memory-update` asks: "What should never need to be re-asked in this project?"
+
+Do not skip a stage's own checks merely because a previous stage asked questions. Use previous artifacts as inputs, then ask what this stage uniquely reveals. Skip a stage only when its inquiry lens is not useful for the current task, and state why.
+
 ## Stage Order
 
 1. `unknown-first:blindspot-pass`

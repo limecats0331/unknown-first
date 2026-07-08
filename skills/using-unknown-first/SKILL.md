@@ -9,13 +9,15 @@ Use Unknown First as a staged workflow, not a single vague planning prompt.
 
 ## Stages
 
-1. `unknown-first:blindspot-pass` finds unknown unknowns and decides whether a prototype is useful.
-2. `unknown-first:prototype` creates disposable prototypes only when they surface tacit preferences; otherwise it skips to interview.
-3. `unknown-first:interview` asks one high-impact question at a time.
-4. `unknown-first:plan` creates an approval-gated implementation plan.
-5. `unknown-first:implement` implements after approval and records deviations.
-6. `unknown-first:closeout` verifies, explains, and quizzes if useful.
-7. `unknown-first:memory-update` promotes durable decisions and resolved unknowns.
+Each stage has its own inquiry lens. Do not treat later stages as merely continuing the previous stage's questions.
+
+1. `unknown-first:blindspot-pass` asks what has not even been considered yet.
+2. `unknown-first:prototype` asks what tacit preference or quality bar only becomes clear when seen.
+3. `unknown-first:interview` asks which explicit decisions would change architecture, UX, scope, security, data, or cost.
+4. `unknown-first:plan` asks which implementation choices need review before code changes.
+5. `unknown-first:implement` asks what reality forced us to change from the plan.
+6. `unknown-first:closeout` asks whether the human can understand and verify what changed.
+7. `unknown-first:memory-update` asks what should never need to be re-asked in this project.
 
 ## Routing
 

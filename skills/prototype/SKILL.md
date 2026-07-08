@@ -7,6 +7,12 @@ description: Use after unknown-first:blindspot-pass when tacit preferences, visu
 
 Read `../references/shared-workflow.md` and use `../references/artifact-templates.md` if writing files.
 
+## Inquiry Lens
+
+Ask: "What tacit preference or quality bar only becomes clear when seen?"
+
+Do not assume blindspot-pass already resolved this. Prototype exists to surface `Unknown knowns`: things the user recognizes by reacting to concrete examples.
+
 ## First Decision
 
 Decide whether a prototype is actually useful. Do not prototype by habit.

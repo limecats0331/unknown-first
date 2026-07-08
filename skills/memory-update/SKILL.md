@@ -7,6 +7,12 @@ description: Use after closeout, after repeated questions, or whenever a project
 
 Read `../references/shared-workflow.md` and use `../references/artifact-templates.md` for memory formats.
 
+## Inquiry Lens
+
+Ask: "What should never need to be re-asked in this project?"
+
+Do not save every note. Promote only durable facts, explicit decisions, repeated answers, and resolved unknowns that will reduce future questioning.
+
 ## Procedure
 
 1. Review final explainer, implementation notes, interview answers, and question log.

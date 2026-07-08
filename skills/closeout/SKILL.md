@@ -7,6 +7,12 @@ description: Use after implementation to verify the change, produce a final expl
 
 Read `../references/shared-workflow.md` and use `../references/artifact-templates.md` when writing final explainer or quiz files.
 
+## Inquiry Lens
+
+Ask: "Can the human understand and verify what changed?"
+
+This is not just a summary. It should make hidden behavior, plan deviations, verification evidence, and residual risk visible to the human.
+
 ## Procedure
 
 1. Summarize what changed and why.
