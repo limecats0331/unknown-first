@@ -25,8 +25,10 @@ This stage is not the general requirements interview. It should expose blindspot
 
 ## End State
 
+Do not silently skip brainstorm. If the task appears fully scoped, propose the skip, explain why, and ask the user to confirm before proceeding to interview.
+
 End with exactly one transition:
 
 - `Next: use unknown-first:brainstorm because ...`
-- `Skip: unknown-first:brainstorm because the task is already fully scoped; next use unknown-first:interview`
+- `Proposed skip: unknown-first:brainstorm because the task is already fully scoped; next would be unknown-first:interview. Confirm before I proceed.`
 - `Blocked: need user answer before continuing`

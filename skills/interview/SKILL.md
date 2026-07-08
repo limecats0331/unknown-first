@@ -29,9 +29,12 @@ Do not skip this just because blindspot-pass, brainstorm, or prototype asked que
 - The implementation plan can state assumptions safely.
 - The user asks to proceed.
 
+Do not silently skip interview. If no interview questions seem necessary, say why and ask the user to confirm before proceeding to reference.
+
 ## End State
 
 End with one of:
 
 - `Next: use unknown-first:reference because the blocking decisions are resolved.`
+- `Proposed skip: unknown-first:interview because no decision-changing questions remain; next would be unknown-first:reference. Confirm before I proceed.`
 - `Blocked: need answer to [question] before planning.`

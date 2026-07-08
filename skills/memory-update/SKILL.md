@@ -31,6 +31,12 @@ Promote an answer when:
 - It constrains architecture, UX, security, data model, naming, testing, deployment, or workflow.
 - Re-asking would waste attention.
 
+Do not silently skip memory-update. If nothing should be promoted, say "no durable memory updates" and ask the user to confirm before ending the workflow.
+
 ## End State
 
 End with a short list of memory updates made and any remaining open unknowns.
+
+Or:
+
+`Proposed skip: unknown-first:memory-update because there are no durable memory updates. Confirm before I finish.`

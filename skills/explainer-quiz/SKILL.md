@@ -22,8 +22,14 @@ This stage is not just a summary. It should package the work for buy-in, make hi
 5. If the work was complex, produce a short quiz or checklist to confirm human understanding.
 6. Identify decisions and resolved unknowns that should become project memory.
 
+Do not silently skip explainer-quiz. For small changes, scale it down to a short verification note. If even that seems unnecessary, propose the skip and ask the user to confirm before memory-update.
+
 ## End State
 
 End with:
 
 `Next: use unknown-first:memory-update to promote durable decisions and resolved unknowns.`
+
+Or:
+
+`Proposed skip: unknown-first:explainer-quiz because ...; next would be unknown-first:memory-update. Confirm before I proceed.`

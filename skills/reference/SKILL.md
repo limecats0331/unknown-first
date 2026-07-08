@@ -21,8 +21,16 @@ This stage converts vague intent into concrete examples. Prefer source code, exi
 4. Summarize the transferable semantics, structure, behavior, or quality bar.
 5. Record any reference-derived decisions or constraints when useful.
 
+If no reference is needed, do not silently skip.
+
+Do not silently skip reference. State why references would not reduce ambiguity and ask the user to confirm before proceeding to plan-and-notes.
+
 ## End State
 
 End with:
 
 `Next: use unknown-first:plan-and-notes to turn decisions and references into an implementation plan.`
+
+Or:
+
+`Proposed skip: unknown-first:reference because ...; next would be unknown-first:plan-and-notes. Confirm before I proceed.`

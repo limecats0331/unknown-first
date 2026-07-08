@@ -25,6 +25,8 @@ If none is true, stop and route back:
 
 `Blocked: implementation plan needs approval before unknown-first:implement.`
 
+Do not silently skip implementation when production changes are needed. If implementation is not needed, explain why and ask the user to confirm before proceeding to explainer-quiz or memory-update.
+
 ## Procedure
 
 1. Implement against the approved plan.
@@ -38,3 +40,7 @@ If none is true, stop and route back:
 End with:
 
 `Next: use unknown-first:explainer-quiz to verify, explain, and prepare memory updates.`
+
+Or:
+
+`Proposed skip: unknown-first:implement because ...; next would be unknown-first:explainer-quiz. Confirm before I proceed.`

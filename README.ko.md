@@ -69,6 +69,8 @@ Plugin은 namespaced skill 형태로 사용합니다.
 
 나머지 단계는 보통 최소한 가볍게라도 한 번씩 점검해야 합니다. 할 일이 없는 단계라면 agent가 그 이유를 명시하고 다음 단계로 넘어가야 합니다.
 
+어떤 단계도 조용히 건너뛰면 안 됩니다. Agent가 단계를 skip하려면 이유와 다음 단계를 말하고, 사용자에게 확인을 받은 뒤 진행해야 합니다.
+
 이전 사용법과의 호환을 위해 `/unknown-first:plan`은 `plan-and-notes` 단계의 alias로, `/unknown-first:closeout`은 `explainer-quiz` 단계의 alias로 남겨두었습니다.
 
 ## Claude Code

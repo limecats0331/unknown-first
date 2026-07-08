@@ -27,10 +27,12 @@ Route to `unknown-first:prototype` when the user needs to react to concrete exam
 
 Skip prototype and route to `unknown-first:interview` when the remaining ambiguity is best resolved by explicit decisions.
 
+Do not silently skip prototype. If prototype seems unnecessary, propose the skip, explain why, and ask the user to confirm before proceeding to interview.
+
 ## End State
 
 End with one of:
 
 - `Next: use unknown-first:prototype because ...`
-- `Skip: unknown-first:prototype because ...; next use unknown-first:interview`
+- `Proposed skip: unknown-first:prototype because ...; next would be unknown-first:interview. Confirm before I proceed.`
 - `Blocked: need user reaction before continuing`

@@ -90,6 +90,8 @@ Treat `prototype` as the main optional discovery stage. Skip it when the task is
 
 For the other stages, do at least a lightweight pass unless the task is truly trivial and reversible. A lightweight pass may be one or two sentences, but it must explicitly apply the stage's inquiry lens.
 
+Do not silently skip any stage. When a stage appears unnecessary, state the skip reason, name the next stage, and ask the user to confirm before proceeding. Proceed without asking only when the user has already explicitly authorized automatic skip decisions for the current run.
+
 - Do not skip `blindspot-pass` for non-trivial work.
 - Do not skip `brainstorm` unless the task is already fully scoped.
 - Do not skip `interview` while decisions remain.
@@ -104,5 +106,5 @@ For the other stages, do at least a lightweight pass unless the task is truly tr
 End each stage with one of:
 
 - `Next: use unknown-first:<stage> because ...`
-- `Skip: unknown-first:<stage> because ...; next use unknown-first:<next-stage>`
+- `Proposed skip: unknown-first:<stage> because ...; next would be unknown-first:<next-stage>. Confirm before I proceed.`
 - `Blocked: need user answer before continuing`

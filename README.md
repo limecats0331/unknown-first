@@ -69,6 +69,8 @@ Use the plugin with namespaced skills:
 
 The other stages should usually get at least a lightweight pass. If a stage has nothing to do, the agent should say so explicitly before moving on.
 
+No stage should be silently skipped. When the agent wants to skip a stage, it should explain why, name the next stage, and ask the user to confirm before proceeding.
+
 Compatibility aliases are kept for older usage: `/unknown-first:plan` maps to the plan-and-notes stage, and `/unknown-first:closeout` maps to the explainer-quiz stage.
 
 ## Claude Code

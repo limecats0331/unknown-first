@@ -25,9 +25,11 @@ Logic-only, backend-only, refactoring-only, or internal API work often skips pro
 
 ## If Skipping
 
-Say why in one sentence, optionally record it in `prototype-notes.md`, then transition:
+Do not silently skip prototype.
 
-`Skip: prototype not useful because ...; next use unknown-first:interview`
+Say why in one sentence, optionally record it in `prototype-notes.md`, then ask the user to confirm before proceeding:
+
+`Proposed skip: prototype not useful because ...; next would be unknown-first:interview. Confirm before I proceed.`
 
 ## If Prototyping
 

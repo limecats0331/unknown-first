@@ -32,8 +32,14 @@ This stage combines the original workflow's implementation plan and implementati
 
 Do not implement production changes in this stage.
 
+Do not silently skip this stage before durable implementation. If the task is truly trivial and reversible, propose a lightweight skip, explain why no plan or notes are needed, and ask the user to confirm before implementing.
+
 ## End State
 
 End with:
 
 `Approval needed: confirm this plan before using unknown-first:implement.`
+
+Or:
+
+`Proposed skip: unknown-first:plan-and-notes because ...; next would be unknown-first:implement. Confirm before I proceed.`
