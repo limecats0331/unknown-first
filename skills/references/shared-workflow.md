@@ -26,8 +26,10 @@ Prefer this project-local structure:
   work/
     YYYY-MM-DD-task-slug/
       blindspot-pass.md
+      brainstorm-notes.md
       prototype-notes.md
       interview-answers.md
+      reference-notes.md
       implementation-plan.md
       implementation-notes.md
       final-explainer.md
@@ -59,11 +61,13 @@ Ask the same project question at most twice. After the second answer, promote it
 Stages are ordered, but they are not a single question list split into parts. Each stage must run its own distinct inquiry lens:
 
 - `blindspot-pass` asks: "What has not even been considered yet?"
+- `brainstorm` asks: "What possible approaches might be valuable before we narrow the scope?"
 - `prototype` asks: "What tacit preference or quality bar only becomes clear when seen?"
 - `interview` asks: "Which explicit decisions would change architecture, UX, scope, security, data, or cost?"
-- `plan` asks: "Which implementation choices are most likely to need human review before code changes?"
+- `reference` asks: "What reference can communicate the desired behavior better than prose?"
+- `plan-and-notes` asks: "Which implementation choices need human review, and what should be logged if reality forces deviations?"
 - `implement` asks: "What did reality force us to change from the plan?"
-- `closeout` asks: "Can the human understand and verify what changed?"
+- `explainer-quiz` asks: "Can the human understand and verify what changed?"
 - `memory-update` asks: "What should never need to be re-asked in this project?"
 
 Do not skip a stage's own checks merely because a previous stage asked questions. Use previous artifacts as inputs, then ask what this stage uniquely reveals. Skip a stage only when its inquiry lens is not useful for the current task, and state why.
@@ -71,12 +75,14 @@ Do not skip a stage's own checks merely because a previous stage asked questions
 ## Stage Order
 
 1. `unknown-first:blindspot-pass`
-2. `unknown-first:prototype` when visual/tacit/cheap exploration is useful; otherwise skip to `unknown-first:interview`
-3. `unknown-first:interview`
-4. `unknown-first:plan`
-5. `unknown-first:implement`
-6. `unknown-first:closeout`
-7. `unknown-first:memory-update`
+2. `unknown-first:brainstorm`
+3. `unknown-first:prototype` when visual/tacit/cheap exploration is useful; otherwise skip to `unknown-first:interview`
+4. `unknown-first:interview`
+5. `unknown-first:reference`
+6. `unknown-first:plan-and-notes`
+7. `unknown-first:implement`
+8. `unknown-first:explainer-quiz`
+9. `unknown-first:memory-update`
 
 ## Transition Language
 

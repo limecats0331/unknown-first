@@ -26,23 +26,27 @@ Source inspiration:
 It turns "just implement this" into a staged process:
 
 1. `unknown-first:blindspot-pass`
-2. `unknown-first:prototype`
-3. `unknown-first:interview`
-4. `unknown-first:plan`
-5. `unknown-first:implement`
-6. `unknown-first:closeout`
-7. `unknown-first:memory-update`
+2. `unknown-first:brainstorm`
+3. `unknown-first:prototype`
+4. `unknown-first:interview`
+5. `unknown-first:reference`
+6. `unknown-first:plan-and-notes`
+7. `unknown-first:implement`
+8. `unknown-first:explainer-quiz`
+9. `unknown-first:memory-update`
 
 The workflow keeps production code untouched during discovery. Disposable prototypes, notes, isolated proofs of concept, and draft artifacts are allowed before approval.
 
 Each stage has a distinct inquiry lens. Later stages should not assume earlier questions covered their job:
 
 - `blindspot-pass`: what has not even been considered yet?
+- `brainstorm`: what possible approaches might be valuable before narrowing scope?
 - `prototype`: what tacit preference only becomes clear when seen?
 - `interview`: which explicit decisions would change architecture, UX, scope, security, data, or cost?
-- `plan`: which implementation choices need review before code changes?
+- `reference`: what reference can communicate the desired behavior better than prose?
+- `plan-and-notes`: which implementation choices need review, and what should be logged if reality forces deviations?
 - `implement`: what did reality force us to change from the plan?
-- `closeout`: can the human understand and verify what changed?
+- `explainer-quiz`: can the human understand and verify what changed?
 - `memory-update`: what should never need to be re-asked?
 
 ## Commands
@@ -51,15 +55,19 @@ Use the plugin with namespaced skills:
 
 ```text
 /unknown-first:blindspot-pass
+/unknown-first:brainstorm
 /unknown-first:prototype
 /unknown-first:interview
-/unknown-first:plan
+/unknown-first:reference
+/unknown-first:plan-and-notes
 /unknown-first:implement
-/unknown-first:closeout
+/unknown-first:explainer-quiz
 /unknown-first:memory-update
 ```
 
 `prototype` is optional. It explicitly skips to `interview` when a mock or disposable artifact would not reduce uncertainty.
+
+Compatibility aliases are kept for older usage: `/unknown-first:plan` maps to the plan-and-notes stage, and `/unknown-first:closeout` maps to the explainer-quiz stage.
 
 ## Claude Code
 
@@ -108,12 +116,16 @@ Those files are project runtime memory and are ignored by this plugin repository
 .codex-plugin/plugin.json
 skills/
   blindspot-pass/
+  brainstorm/
   prototype/
   interview/
-  plan/
+  reference/
+  plan-and-notes/
   implement/
-  closeout/
+  explainer-quiz/
   memory-update/
+  plan/       # compatibility alias
+  closeout/   # compatibility alias
   using-unknown-first/
   references/
 ```

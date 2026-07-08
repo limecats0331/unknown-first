@@ -1,6 +1,6 @@
 ---
 name: interview
-description: Use after blindspot-pass or prototype when decisions remain. Asks one question at a time, prioritizing answers that change architecture, data model, UX, security, scope, or implementation cost, then routes to unknown-first:plan.
+description: Use after prototype or brainstorm when decisions remain. Asks one question at a time, prioritizing answers that change architecture, data model, UX, security, scope, or implementation cost, then routes to unknown-first:reference.
 ---
 
 # Interview
@@ -11,7 +11,7 @@ Read `../references/shared-workflow.md` and use `../references/artifact-template
 
 Ask: "Which explicit decisions would change architecture, UX, scope, security, data, or cost?"
 
-Do not skip this just because blindspot-pass or prototype asked questions. Those stages reveal different unknowns. Interview converts unresolved ambiguity into explicit human decisions, one question at a time.
+Do not skip this just because blindspot-pass, brainstorm, or prototype asked questions. Those stages reveal different unknowns. Interview converts unresolved ambiguity into explicit human decisions, one question at a time.
 
 ## Procedure
 
@@ -33,5 +33,5 @@ Do not skip this just because blindspot-pass or prototype asked questions. Those
 
 End with one of:
 
-- `Next: use unknown-first:plan because the blocking decisions are resolved.`
+- `Next: use unknown-first:reference because the blocking decisions are resolved.`
 - `Blocked: need answer to [question] before planning.`

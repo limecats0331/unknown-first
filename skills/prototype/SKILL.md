@@ -1,6 +1,6 @@
 ---
 name: prototype
-description: Use after unknown-first:blindspot-pass when tacit preferences, visual judgment, workflow feel, or cheap exploration can resolve unknown knowns. Creates disposable prototypes only; if not useful, explicitly skips to unknown-first:interview.
+description: Use after unknown-first:brainstorm when tacit preferences, visual judgment, workflow feel, or cheap exploration can resolve unknown knowns. Creates disposable prototypes only; if not useful, explicitly skips to unknown-first:interview.
 ---
 
 # Prototype

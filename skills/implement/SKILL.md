@@ -1,6 +1,6 @@
 ---
 name: implement
-description: Use only after an unknown-first:plan implementation plan is approved, or when the user explicitly overrides the approval gate. Implements against the plan, records deviations in implementation-notes.md, and routes to unknown-first:closeout.
+description: Use only after an unknown-first:plan-and-notes implementation plan is approved, or when the user explicitly overrides the approval gate. Implements against the plan, records deviations in implementation-notes.md, and routes to unknown-first:explainer-quiz.
 ---
 
 # Implement
@@ -37,4 +37,4 @@ If none is true, stop and route back:
 
 End with:
 
-`Next: use unknown-first:closeout to verify, explain, and prepare memory updates.`
+`Next: use unknown-first:explainer-quiz to verify, explain, and prepare memory updates.`

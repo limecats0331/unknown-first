@@ -1,6 +1,6 @@
 ---
 name: blindspot-pass
-description: Use before non-trivial work, especially new codebase areas, unfamiliar domains, architecture/data/security/user-facing changes, or when the user asks for a blindspot pass. Identifies unknown unknowns, checks project memory, and routes next to unknown-first:prototype or unknown-first:interview.
+description: Use before non-trivial work, especially new codebase areas, unfamiliar domains, architecture/data/security/user-facing changes, or when the user asks for a blindspot pass. Identifies unknown unknowns, checks project memory, and routes next to unknown-first:brainstorm.
 ---
 
 # Blindspot Pass
@@ -21,28 +21,12 @@ This stage is not the general requirements interview. It should expose blindspot
 4. Classify ambiguity into known knowns, known unknowns, unknown knowns, and unknown unknowns.
 5. Inspect only the context needed to identify blindspots.
 6. Produce or update `blindspot-pass.md` for medium/high/exploratory work.
-7. Decide whether `unknown-first:prototype` is useful.
-
-## Prototype Routing
-
-Route to `unknown-first:prototype` when:
-
-- The task has UI, UX, visual, document, report, workflow, or interaction taste.
-- The user may only know the right answer after seeing options.
-- Several implementation approaches are plausible and cheap to mock.
-- A disposable HTML/mock/fake-data artifact can prevent expensive rework.
-
-Skip prototype and route to `unknown-first:interview` when:
-
-- Criteria are already explicit.
-- Work is backend/internal and follows an existing pattern.
-- A prototype would cost more than answering questions.
-- Uncertainty is mainly policy, architecture, security, or scope.
+7. Recommend whether brainstorming should be broad or narrow.
 
 ## End State
 
 End with exactly one transition:
 
-- `Next: use unknown-first:prototype because ...`
-- `Skip: unknown-first:prototype because ...; next use unknown-first:interview`
+- `Next: use unknown-first:brainstorm because ...`
+- `Skip: unknown-first:brainstorm because the task is already fully scoped; next use unknown-first:interview`
 - `Blocked: need user answer before continuing`

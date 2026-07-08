@@ -1,11 +1,9 @@
 ---
-name: closeout
-description: Compatibility alias for unknown-first:explainer-quiz. Use after implementation to verify the change, produce a final explainer, optionally quiz the user, and route durable learnings to unknown-first:memory-update.
+name: explainer-quiz
+description: Use after implementation to package what changed into a human-readable explainer, provide verification evidence, optionally quiz the human, and route durable learnings to unknown-first:memory-update.
 ---
 
-# Closeout
-
-Compatibility note: prefer `unknown-first:explainer-quiz` for the canonical workflow name used by the original visual guide. This skill keeps `/unknown-first:closeout` working.
+# Explainer And Quiz
 
 Read `../references/shared-workflow.md` and use `../references/artifact-templates.md` when writing final explainer or quiz files.
 
@@ -13,7 +11,7 @@ Read `../references/shared-workflow.md` and use `../references/artifact-template
 
 Ask: "Can the human understand and verify what changed?"
 
-This is not just a summary. It should make hidden behavior, plan deviations, verification evidence, and residual risk visible to the human.
+This stage is not just a summary. It should make hidden behavior, plan deviations, verification evidence, and residual risk visible to the human.
 
 ## Procedure
 

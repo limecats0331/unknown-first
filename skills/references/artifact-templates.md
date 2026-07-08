@@ -34,7 +34,7 @@ Prototype needed: yes | no
 Reason:
 
 ## Next
-Use unknown-first:prototype | unknown-first:interview.
+Use unknown-first:brainstorm.
 ```
 
 ## prototype-notes.md
@@ -65,6 +65,32 @@ Reason:
 Use unknown-first:interview.
 ```
 
+## brainstorm-notes.md
+
+```markdown
+# Brainstorm Notes: [Task]
+
+## Starting Point
+
+## Candidate Directions
+1. 
+
+## Cheap To Ambitious Options
+- Cheap:
+- Medium:
+- Ambitious:
+
+## Unknowns Surfaced
+- 
+
+## Prototype Decision
+Prototype needed: yes | no
+Reason:
+
+## Next
+Use unknown-first:prototype | unknown-first:interview.
+```
+
 ## interview-answers.md
 
 ```markdown
@@ -84,6 +110,27 @@ Promote to memory: yes | no
 
 ## Next
 Use unknown-first:plan when no blocking questions remain.
+```
+
+## reference-notes.md
+
+```markdown
+# Reference Notes: [Task]
+
+## References Used
+- 
+
+## Transferable Semantics / Structure / Quality Bar
+- 
+
+## Constraints Derived From References
+- 
+
+## Decisions Resolved
+- 
+
+## Next
+Use unknown-first:plan-and-notes.
 ```
 
 ## implementation-plan.md

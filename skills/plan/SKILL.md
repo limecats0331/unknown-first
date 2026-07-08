@@ -1,9 +1,11 @@
 ---
 name: plan
-description: Use after unknown-first:interview when enough decisions are resolved to plan implementation. Creates an approval-gated implementation-plan.md with high-impact decisions first, then routes to unknown-first:implement only after approval.
+description: Compatibility alias for unknown-first:plan-and-notes. Use after unknown-first:reference when enough decisions are resolved to plan implementation. Creates an approval-gated implementation-plan.md with high-impact decisions first, then routes to unknown-first:implement only after approval.
 ---
 
 # Plan
+
+Compatibility note: prefer `unknown-first:plan-and-notes` for the canonical workflow name used by the original visual guide. This skill keeps `/unknown-first:plan` working.
 
 Read `../references/shared-workflow.md` and use `../references/artifact-templates.md`.
 
