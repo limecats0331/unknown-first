@@ -11,9 +11,9 @@ Read `../references/shared-workflow.md` and use `../references/artifact-template
 
 ## Inquiry Lens
 
-Ask: "Which implementation choices are most likely to need human review before code changes?"
+Ask: "Which decisions am I most likely to tweak before implementation, and how should deviations be logged if reality forces changes?"
 
-Do not merely summarize previous answers. Planning must surface reviewable implementation choices: data model, interfaces, user-facing behavior, security/privacy, migration, rollback, and test strategy.
+Do not merely summarize previous answers. Planning must surface reviewable implementation choices: data model, interfaces, user-facing behavior, security/privacy, migration, rollback, and test strategy. It should also define how implementation notes will record edge cases and deviations.
 
 ## Procedure
 

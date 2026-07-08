@@ -39,14 +39,14 @@ The workflow keeps production code untouched during discovery. Disposable protot
 
 Each stage has a distinct inquiry lens. Later stages should not assume earlier questions covered their job:
 
-- `blindspot-pass`: what has not even been considered yet?
+- `blindspot-pass`: what questions, quality bars, history, and potholes am I not aware enough to ask about?
 - `brainstorm`: what possible approaches might be valuable before narrowing scope?
 - `prototype`: what tacit preference only becomes clear when seen?
 - `interview`: which explicit decisions would change architecture, UX, scope, security, data, or cost?
 - `reference`: what reference can communicate the desired behavior better than prose?
-- `plan-and-notes`: which implementation choices need review, and what should be logged if reality forces deviations?
+- `plan-and-notes`: which decisions am I most likely to tweak before implementation, and how should deviations be logged if reality forces changes?
 - `implement`: what did reality force us to change from the plan?
-- `explainer-quiz`: can the human understand and verify what changed?
+- `explainer-quiz`: can reviewers understand, approve, and verify what changed, and can the human pass a quiz on it?
 - `memory-update`: what should never need to be re-asked?
 
 ## Commands

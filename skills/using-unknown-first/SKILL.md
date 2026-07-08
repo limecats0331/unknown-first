@@ -11,14 +11,14 @@ Use Unknown First as a staged workflow, not a single vague planning prompt.
 
 Each stage has its own inquiry lens. Do not treat later stages as merely continuing the previous stage's questions.
 
-1. `unknown-first:blindspot-pass` asks what has not even been considered yet.
+1. `unknown-first:blindspot-pass` asks what questions, quality bars, history, and potholes the human is not aware enough to ask about.
 2. `unknown-first:brainstorm` asks what possible approaches might be valuable before narrowing scope.
 3. `unknown-first:prototype` asks what tacit preference or quality bar only becomes clear when seen.
 4. `unknown-first:interview` asks which explicit decisions would change architecture, UX, scope, security, data, or cost.
 5. `unknown-first:reference` asks what reference can communicate the desired behavior better than prose.
-6. `unknown-first:plan-and-notes` asks which implementation choices need review and what should be logged if reality forces deviations.
+6. `unknown-first:plan-and-notes` asks which decisions the human is most likely to tweak before implementation and how deviations should be logged if reality forces changes.
 7. `unknown-first:implement` asks what reality forced us to change from the plan.
-8. `unknown-first:explainer-quiz` asks whether the human can understand and verify what changed.
+8. `unknown-first:explainer-quiz` asks whether reviewers can understand, approve, and verify what changed, and whether the human can pass a quiz on it.
 9. `unknown-first:memory-update` asks what should never need to be re-asked in this project.
 
 ## Routing

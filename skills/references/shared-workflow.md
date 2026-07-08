@@ -60,14 +60,14 @@ Ask the same project question at most twice. After the second answer, promote it
 
 Stages are ordered, but they are not a single question list split into parts. Each stage must run its own distinct inquiry lens:
 
-- `blindspot-pass` asks: "What has not even been considered yet?"
+- `blindspot-pass` asks: "What questions, quality bars, history, and potholes am I not aware enough to ask about?"
 - `brainstorm` asks: "What possible approaches might be valuable before we narrow the scope?"
 - `prototype` asks: "What tacit preference or quality bar only becomes clear when seen?"
 - `interview` asks: "Which explicit decisions would change architecture, UX, scope, security, data, or cost?"
 - `reference` asks: "What reference can communicate the desired behavior better than prose?"
-- `plan-and-notes` asks: "Which implementation choices need human review, and what should be logged if reality forces deviations?"
+- `plan-and-notes` asks: "Which decisions am I most likely to tweak before implementation, and how should deviations be logged if reality forces changes?"
 - `implement` asks: "What did reality force us to change from the plan?"
-- `explainer-quiz` asks: "Can the human understand and verify what changed?"
+- `explainer-quiz` asks: "Can reviewers understand, approve, and verify what changed, and can the human pass a quiz on it?"
 - `memory-update` asks: "What should never need to be re-asked in this project?"
 
 Do not skip a stage's own checks merely because a previous stage asked questions. Use previous artifacts as inputs, then ask what this stage uniquely reveals. Skip a stage only when its inquiry lens is not useful for the current task, and state why.

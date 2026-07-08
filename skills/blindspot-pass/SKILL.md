@@ -9,9 +9,9 @@ Read `../references/shared-workflow.md` and use `../references/artifact-template
 
 ## Inquiry Lens
 
-Ask: "What has not even been considered yet?"
+Ask: "What questions, quality bars, history, and potholes am I not aware enough to ask about?"
 
-This stage is not the general requirements interview. It should expose blindspots, risky assumptions, missing context, and unknown unknowns before the workflow decides whether to prototype or interview.
+This stage is not the general requirements interview. It should expose blindspots, risky assumptions, missing context, unknown unknowns, historical work, hidden traps, and what "good" might look like before the workflow decides whether to brainstorm, prototype, or interview.
 
 ## Procedure
 

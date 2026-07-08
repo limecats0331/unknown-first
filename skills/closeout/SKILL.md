@@ -11,9 +11,9 @@ Read `../references/shared-workflow.md` and use `../references/artifact-template
 
 ## Inquiry Lens
 
-Ask: "Can the human understand and verify what changed?"
+Ask: "Can reviewers understand, approve, and verify what changed, and can the human pass a quiz on it?"
 
-This is not just a summary. It should make hidden behavior, plan deviations, verification evidence, and residual risk visible to the human.
+This is not just a summary. It should package the work for buy-in, make hidden behavior, plan deviations, verification evidence, and residual risk visible, and optionally quiz the human so merging is gated on understanding.
 
 ## Procedure
 

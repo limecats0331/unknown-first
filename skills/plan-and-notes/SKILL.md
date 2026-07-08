@@ -9,9 +9,9 @@ Read `../references/shared-workflow.md` and use `../references/artifact-template
 
 ## Inquiry Lens
 
-Ask: "Which implementation choices need human review, and what should be logged if reality forces deviations?"
+Ask: "Which decisions am I most likely to tweak before implementation, and how should deviations be logged if reality forces changes?"
 
-This stage combines the original workflow's implementation plan and implementation notes. It does not implement production changes.
+This stage combines the original workflow's implementation plan and implementation notes. It should lead with the reviewable decisions most likely to change, then define how implementation will log edge cases and deviations. It does not implement production changes.
 
 ## Procedure
 
