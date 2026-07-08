@@ -65,7 +65,9 @@ Plugin은 namespaced skill 형태로 사용합니다.
 /unknown-first:memory-update
 ```
 
-`prototype`은 항상 필요한 단계가 아닙니다. Mock이나 disposable artifact가 불확실성을 줄이지 못하는 경우에는 명시적으로 `interview`로 넘어갑니다.
+`prototype`은 주된 optional discovery 단계입니다. Mock이나 disposable artifact가 불확실성을 줄이지 못하는 경우에는 명시적으로 `interview`로 넘어갑니다. 순수 로직, 백엔드, 리팩터링, 내부 API 작업에서는 prototype을 건너뛰는 경우가 흔합니다.
+
+나머지 단계는 보통 최소한 가볍게라도 한 번씩 점검해야 합니다. 할 일이 없는 단계라면 agent가 그 이유를 명시하고 다음 단계로 넘어가야 합니다.
 
 이전 사용법과의 호환을 위해 `/unknown-first:plan`은 `plan-and-notes` 단계의 alias로, `/unknown-first:closeout`은 `explainer-quiz` 단계의 alias로 남겨두었습니다.
 

@@ -21,6 +21,8 @@ Prototype when it can surface `Unknown knowns`: taste, layout, copy tone, workfl
 
 Skip when the work is already specified, follows an existing pattern, or needs policy/architecture answers rather than a mock.
 
+Logic-only, backend-only, refactoring-only, or internal API work often skips prototype unless an isolated proof of concept would cheaply answer a real uncertainty.
+
 ## If Skipping
 
 Say why in one sentence, optionally record it in `prototype-notes.md`, then transition:

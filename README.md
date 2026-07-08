@@ -65,7 +65,9 @@ Use the plugin with namespaced skills:
 /unknown-first:memory-update
 ```
 
-`prototype` is optional. It explicitly skips to `interview` when a mock or disposable artifact would not reduce uncertainty.
+`prototype` is the main optional discovery stage. It explicitly skips to `interview` when a mock or disposable artifact would not reduce uncertainty, which is common for logic-only, backend-only, refactoring, or internal API work.
+
+The other stages should usually get at least a lightweight pass. If a stage has nothing to do, the agent should say so explicitly before moving on.
 
 Compatibility aliases are kept for older usage: `/unknown-first:plan` maps to the plan-and-notes stage, and `/unknown-first:closeout` maps to the explainer-quiz stage.
 

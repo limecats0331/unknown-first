@@ -27,4 +27,6 @@ Start non-trivial work with `unknown-first:blindspot-pass`, then use `unknown-fi
 
 Use `unknown-first:prototype` only when the outcome depends on visual judgment, tacit preference, workflow feel, or cheap exploration. Skip it for clear backend/internal work and go to `unknown-first:interview`.
 
+Prototype is the main optional discovery stage. For the other stages, do at least a lightweight pass unless the task is truly trivial and reversible. If a stage has nothing to do, state that explicitly and move on.
+
 Read `../references/shared-workflow.md` for shared rules.

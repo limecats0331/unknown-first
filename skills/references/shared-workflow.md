@@ -84,6 +84,21 @@ Do not skip a stage's own checks merely because a previous stage asked questions
 8. `unknown-first:explainer-quiz`
 9. `unknown-first:memory-update`
 
+## Skipping Policy
+
+Treat `prototype` as the main optional discovery stage. Skip it when the task is pure logic/backend/internal work, follows an existing pattern, or when a mock would not reduce uncertainty.
+
+For the other stages, do at least a lightweight pass unless the task is truly trivial and reversible. A lightweight pass may be one or two sentences, but it must explicitly apply the stage's inquiry lens.
+
+- Do not skip `blindspot-pass` for non-trivial work.
+- Do not skip `brainstorm` unless the task is already fully scoped.
+- Do not skip `interview` while decisions remain.
+- Do not skip `reference`; if no reference is needed, say so before planning.
+- Do not skip `plan-and-notes` before durable implementation.
+- Do not skip `implement` when production changes are needed.
+- Do not skip `explainer-quiz`; scale it down for small changes.
+- Do not skip `memory-update`; say "no durable memory updates" when nothing should be promoted.
+
 ## Transition Language
 
 End each stage with one of:
