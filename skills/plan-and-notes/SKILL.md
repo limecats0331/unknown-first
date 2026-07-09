@@ -5,7 +5,7 @@ description: Use after unknown-first:reference when enough decisions are resolve
 
 # Plan And Notes
 
-Read `../references/shared-workflow.md` and use `../references/artifact-templates.md`.
+Read `../../references/shared-workflow.md` and use `../../references/artifact-templates.md`.
 
 ## Inquiry Lens
 

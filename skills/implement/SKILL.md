@@ -5,7 +5,7 @@ description: Use only after an unknown-first:plan-and-notes implementation plan 
 
 # Implement
 
-Read `../references/shared-workflow.md` and use `../references/artifact-templates.md` for implementation notes.
+Read `../../references/shared-workflow.md` and use `../../references/artifact-templates.md` for implementation notes.
 
 ## Inquiry Lens
 

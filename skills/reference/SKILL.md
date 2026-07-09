@@ -5,7 +5,7 @@ description: Use after unknown-first:interview, or earlier when words are insuff
 
 # Reference
 
-Read `../references/shared-workflow.md` and use `../references/artifact-templates.md` if writing files.
+Read `../../references/shared-workflow.md` and use `../../references/artifact-templates.md` if writing files.
 
 ## Inquiry Lens
 

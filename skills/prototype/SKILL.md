@@ -1,11 +1,11 @@
 ---
 name: prototype
-description: Use after unknown-first:brainstorm when tacit preferences, visual judgment, workflow feel, or cheap exploration can resolve unknown knowns. Creates disposable prototypes only; if not useful, explicitly skips to unknown-first:interview.
+description: Use after unknown-first:brainstorm when tacit preferences, visual judgment, workflow feel, or cheap exploration can resolve unknown knowns. Creates disposable prototypes only; if not useful, proposes skipping to unknown-first:interview and waits for confirmation.
 ---
 
 # Prototype
 
-Read `../references/shared-workflow.md` and use `../references/artifact-templates.md` if writing files.
+Read `../../references/shared-workflow.md` and use `../../references/artifact-templates.md` if writing files.
 
 ## Inquiry Lens
 
@@ -29,7 +29,7 @@ Do not silently skip prototype.
 
 Say why in one sentence, optionally record it in `prototype-notes.md`, then ask the user to confirm before proceeding:
 
-`Proposed skip: prototype not useful because ...; next would be unknown-first:interview. Confirm before I proceed.`
+`Proposed skip: unknown-first:prototype because ...; next would be unknown-first:interview. Confirm before I proceed.`
 
 ## If Prototyping
 
@@ -41,6 +41,7 @@ Say why in one sentence, optionally record it in `prototype-notes.md`, then ask 
 
 ## End State
 
-Always end with:
+End with exactly one transition:
 
-`Next: use unknown-first:interview to resolve remaining decisions.`
+- `Next: use unknown-first:interview to resolve remaining decisions.`
+- `Proposed skip: unknown-first:prototype because ...; next would be unknown-first:interview. Confirm before I proceed.`

@@ -1,11 +1,11 @@
 ---
 name: memory-update
-description: Use after closeout, after repeated questions, or whenever a project unknown becomes a durable known. Updates .unknowns-first project memory so the same question is not repeatedly asked.
+description: Use after unknown-first:explainer-quiz, after repeated questions, or whenever a project unknown becomes a durable known. Updates .unknowns-first project memory so the same question is not repeatedly asked.
 ---
 
 # Memory Update
 
-Read `../references/shared-workflow.md` and use `../references/artifact-templates.md` for memory formats.
+Read `../../references/shared-workflow.md` and use `../../references/artifact-templates.md` for memory formats.
 
 ## Inquiry Lens
 

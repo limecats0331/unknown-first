@@ -7,7 +7,7 @@ description: Compatibility alias for unknown-first:explainer-quiz. Use after imp
 
 Compatibility note: prefer `unknown-first:explainer-quiz` for the canonical workflow name used by the original visual guide. This skill keeps `/unknown-first:closeout` working.
 
-Read `../references/shared-workflow.md` and use `../references/artifact-templates.md` when writing final explainer or quiz files.
+Read `../../references/shared-workflow.md` and use `../../references/artifact-templates.md` when writing final explainer or quiz files.
 
 ## Inquiry Lens
 

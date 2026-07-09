@@ -5,7 +5,7 @@ description: Use before non-trivial work, especially new codebase areas, unfamil
 
 # Blindspot Pass
 
-Read `../references/shared-workflow.md` and use `../references/artifact-templates.md` if writing files.
+Read `../../references/shared-workflow.md` and use `../../references/artifact-templates.md` if writing files.
 
 ## Inquiry Lens
 

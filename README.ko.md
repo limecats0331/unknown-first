@@ -65,9 +65,9 @@ Plugin은 namespaced skill 형태로 사용합니다.
 /unknown-first:memory-update
 ```
 
-`prototype`은 주된 optional discovery 단계입니다. Mock이나 disposable artifact가 불확실성을 줄이지 못하는 경우에는 명시적으로 `interview`로 넘어갑니다. 순수 로직, 백엔드, 리팩터링, 내부 API 작업에서는 prototype을 건너뛰는 경우가 흔합니다.
+`prototype`은 주된 optional discovery 단계입니다. Mock이나 disposable artifact가 불확실성을 줄이지 못하는 경우에는 `interview`로 넘어갈 수 있습니다. 순수 로직, 백엔드, 리팩터링, 내부 API 작업에서는 prototype을 건너뛰는 경우가 흔합니다. 이때 agent는 skip을 제안하고 사용자 확인을 기다려야 합니다.
 
-나머지 단계는 보통 최소한 가볍게라도 한 번씩 점검해야 합니다. 할 일이 없는 단계라면 agent가 그 이유를 명시하고 다음 단계로 넘어가야 합니다.
+나머지 단계는 보통 최소한 가볍게라도 한 번씩 점검해야 합니다. 할 일이 없는 단계라면 그 내용을 해당 단계의 lightweight pass로 명시하거나, skip을 제안하고 사용자 확인을 기다려야 합니다.
 
 어떤 단계도 조용히 건너뛰면 안 됩니다. Agent가 단계를 skip하려면 이유와 다음 단계를 말하고, 사용자에게 확인을 받은 뒤 진행해야 합니다.
 
@@ -131,7 +131,7 @@ skills/
   plan/       # compatibility alias
   closeout/   # compatibility alias
   using-unknown-first/
-  references/
+references/
 ```
 
 ## Validation

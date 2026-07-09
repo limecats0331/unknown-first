@@ -25,10 +25,10 @@ Each stage has its own inquiry lens. Do not treat later stages as merely continu
 
 Start non-trivial work with `unknown-first:blindspot-pass`, then use `unknown-first:brainstorm` unless the task is already fully scoped.
 
-Use `unknown-first:prototype` only when the outcome depends on visual judgment, tacit preference, workflow feel, or cheap exploration. Skip it for clear backend/internal work and go to `unknown-first:interview`.
+Use `unknown-first:prototype` only when the outcome depends on visual judgment, tacit preference, workflow feel, or cheap exploration. For clear backend/internal work, propose skipping prototype and wait for confirmation before going to `unknown-first:interview`.
 
-Prototype is the main optional discovery stage. For the other stages, do at least a lightweight pass unless the task is truly trivial and reversible. If a stage has nothing to do, state that explicitly and move on.
+Prototype is the main optional discovery stage. For the other stages, do at least a lightweight pass unless the task is truly trivial and reversible. If a stage has nothing to do, either make that explicit as the lightweight pass or propose a skip and wait for confirmation.
 
 Do not silently skip stages. If any stage seems unnecessary, propose the skip with a reason and ask the user to confirm before proceeding, unless the user already authorized automatic skip decisions for this run.
 
-Read `../references/shared-workflow.md` for shared rules.
+Read `../../references/shared-workflow.md` for shared rules.

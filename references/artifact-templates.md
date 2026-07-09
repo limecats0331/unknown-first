@@ -109,7 +109,7 @@ Promote to memory: yes | no
 - 
 
 ## Next
-Use unknown-first:plan when no blocking questions remain.
+Use unknown-first:reference when no blocking questions remain.
 ```
 
 ## reference-notes.md

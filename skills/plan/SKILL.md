@@ -7,7 +7,7 @@ description: Compatibility alias for unknown-first:plan-and-notes. Use after unk
 
 Compatibility note: prefer `unknown-first:plan-and-notes` for the canonical workflow name used by the original visual guide. This skill keeps `/unknown-first:plan` working.
 
-Read `../references/shared-workflow.md` and use `../references/artifact-templates.md`.
+Read `../../references/shared-workflow.md` and use `../../references/artifact-templates.md`.
 
 ## Inquiry Lens
 

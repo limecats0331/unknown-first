@@ -5,7 +5,7 @@ description: Use after unknown-first:blindspot-pass to expand the option space b
 
 # Brainstorm
 
-Read `../references/shared-workflow.md` and use `../references/artifact-templates.md` if writing files.
+Read `../../references/shared-workflow.md` and use `../../references/artifact-templates.md` if writing files.
 
 ## Inquiry Lens
 

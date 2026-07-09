@@ -65,9 +65,9 @@ Use the plugin with namespaced skills:
 /unknown-first:memory-update
 ```
 
-`prototype` is the main optional discovery stage. It explicitly skips to `interview` when a mock or disposable artifact would not reduce uncertainty, which is common for logic-only, backend-only, refactoring, or internal API work.
+`prototype` is the main optional discovery stage. It can be skipped to `interview` when a mock or disposable artifact would not reduce uncertainty, which is common for logic-only, backend-only, refactoring, or internal API work. The agent should propose that skip and wait for confirmation.
 
-The other stages should usually get at least a lightweight pass. If a stage has nothing to do, the agent should say so explicitly before moving on.
+The other stages should usually get at least a lightweight pass. If a stage has nothing to do, the agent should either make that explicit as the lightweight pass or propose a skip and wait for confirmation.
 
 No stage should be silently skipped. When the agent wants to skip a stage, it should explain why, name the next stage, and ask the user to confirm before proceeding.
 
@@ -131,7 +131,7 @@ skills/
   plan/       # compatibility alias
   closeout/   # compatibility alias
   using-unknown-first/
-  references/
+references/
 ```
 
 ## Validation

@@ -5,7 +5,7 @@ description: Use after implementation to package what changed into a human-reada
 
 # Explainer And Quiz
 
-Read `../references/shared-workflow.md` and use `../references/artifact-templates.md` when writing final explainer or quiz files.
+Read `../../references/shared-workflow.md` and use `../../references/artifact-templates.md` when writing final explainer or quiz files.
 
 ## Inquiry Lens
 

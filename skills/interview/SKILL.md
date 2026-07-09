@@ -5,7 +5,7 @@ description: Use after prototype or brainstorm when decisions remain. Asks one q
 
 # Interview
 
-Read `../references/shared-workflow.md` and use `../references/artifact-templates.md` if writing files.
+Read `../../references/shared-workflow.md` and use `../../references/artifact-templates.md` if writing files.
 
 ## Inquiry Lens
 
